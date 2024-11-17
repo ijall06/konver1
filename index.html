@@ -1,49 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Konversi Bilangan</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistem Periodik Unsur</title>
+  <link rel="stylesheet" href="home.css">
 </head>
 <body>
-<div class="body">
-<div>
-<h1 class="judul">Konversi Bilangan</h1>
-<div class="bodykonverter">
-    <div class="group1">
-        <label for="base">Pilih basis bilangan asal</label>
-        <select id="base" name="base">
-            <option value="binary">Binary</option>
-            <option value="octal" selected>Octal</option>
-            <option value="decimal">Decimal</option>
-            <option value="hexadecimal">Hexadecimal</option>
-        </select>
-    </div>
-    <div class="group2">
-        <label for="number">Masukkan Bilangan</label>
-        <input type="text" id="input-number" placeholder="Enter number">
-        <button onclick="convertNumber()">Convert</button>
-    </div>
-    <div class="tombol1">
-        
-    </div>
-</div>
-<div class="hasil">
-    <div class="card">
-      <div class="card-header">
-        <h5 class="card-title">Hasil Converted</h5>
-      </div>
-      <div class="card-body">
-        <p id="decimalOutput" class="card-text">Decimal: 0</p>
-        <p id="binaryOutput" class="card-text">Binary: 0</p>
-        <p id="octalOutput" class="card-text">Octal: 0</p>
-        <p id="hexadecimalOutput" class="card-text">Hexadecimal: 0</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div>
-    <button class="reset" onclick="resetForm()">Reset</button>
+    <header>
+      <div class="menu-icon">☰</div>
+      <div style="max-width: 480px; height: auto; position: relative; background: white">
+        <div class="lingkaran1" style="width: 406px; height: 383px; left: -157px; top: 655px;"></div>
+        <div class="lingkaran2" style="width: 402px; height: 380px;"></div>
+        <img class="gambar1" style="width: 379px; height: 379px; left: 83px; top: 479px; position: absolute" src="gambar1.png" />
+        <div style="width: 412px; height: 211px; left: 0px; top: 114px; position: absolute">
+            <div style="width: 412px; left: 0px; top: 0px; position: absolute; text-align: center; 
+            color: black; font-size: 40px; font-family: Inter; font-weight: 700; word-wrap: break-word">
+            SISTEM <br/>PERIODIK UNSUR<br/></div>
+            <div style="width: 279px; left: 67px; top: 99px; position: absolute; text-align: justify; 
+            color: black; font-size: 13px; font-family: Inter; font-weight: 300; 
+            word-wrap: break-word">susunan unsur-unsur berdasarkan nomor atom dan kemiripan sifat-sifatnya. 
+            Sobat perlu mengenali, memahami, dan menghafalnya guna menghitung reaksi kimia. Dengan tabel periodik unsur, 
+            Sobat bisa mengetahui nomor atom, konfigurasi elektron, dan sifat setiap unsur.</div>
+        </div>
+        </div>
+        <div class="box" style="width: 237px; height: 54px; left: 87px; top: 371px; position: absolute;">
+            <div style="width: 237px; height: 54px; left: 0px; top: 0px;"></div>
+            <div style="left: 65.20px; top: 13.50px; position: absolute; color: white; font-size: 20px; font-family: Poppins; font-weight: 600; word-wrap: break-word">Get Started</div>
+        </div>
+    </div> 
 </div>
 </body>
-<script src="script.js"></script>
 </html>
