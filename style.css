@@ -130,7 +130,7 @@ header {
   .scientist {
     position: absolute;
     width: 200px;
-    height: auto;
+    height: 200px;
     top: 150px;
     left: 50%;
     transform: translateX(-50%);
