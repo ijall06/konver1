@@ -16,13 +16,13 @@ header {
 .lingkaran1{
   position: absolute; background: #6FBFC5; 
   box-shadow: 553.5px 553.5px 553.5px; 
-  border-radius: 9999px; border: 1px black solid; filter: blur(553.50px);
+  border-radius: 9999px; border: 1px black solid; filter: blur(300px);
 }
 .lingkaran2{
   left: 211px; top: -44px; 
   position: absolute; background: rgba(111, 191, 197, 0.90); 
   box-shadow: 553.5px 553.5px 553.5px; border-radius: 9999px; 
-  border: 1px black solid; filter: blur(553.50px);
+  border: 1px black solid; filter: blur(50px);
 }
 .box{
   position: absolute; background: #6FBFC5; border-radius: 10px;
